@@ -1,2 +1,6 @@
 .vs
 packages
+Demo/bin
+Demo/obj
+Demo.Tests/bin
+Demo.Tests/obj
