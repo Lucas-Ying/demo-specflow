@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Dev\C#\Demo\Demo.Tests\bin\Debug\Demo.Tests.dll" total="4" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-05-16" time="07:35:16">
+  <environment nunit-version="3.5.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="C:\Dev\C#\Demo" machine-name="DESKTOP-7TF3IIV" user="lucas" user-domain="DESKTOP-7TF3IIV" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Dev\C#\Demo\Demo.Tests\bin\Debug\Demo.Tests.dll" executed="True" result="Success" success="True" time="0.388" asserts="4">
+    <properties>
+      <property name="_PID" value="5688" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <results>
+      <test-suite type="TestSuite" name="Demo" executed="True" result="Success" success="True" time="0.372" asserts="4">
+        <results>
+          <test-suite type="TestSuite" name="Tests" executed="True" result="Success" success="True" time="0.368" asserts="4">
+            <results>
+              <test-suite type="TestFixture" name="CharacterFeature" description="Character" executed="True" result="Success" success="True" time="0.363" asserts="4">
+                <properties>
+                  <property name="Description" value="Character" />
+                </properties>
+                <results>
+                  <test-suite type="ParameterizedTest" name="HealthReduction" description="Health reduction" executed="True" result="Success" success="True" time="0.121" asserts="3">
+                    <properties>
+                      <property name="Description" value="Health reduction" />
+                    </properties>
+                    <results>
+                      <test-case name="Demo.Tests.CharacterFeature.HealthReduction(&quot;0&quot;,&quot;100&quot;,System.String[])" executed="True" result="Success" success="True" time="0.107" asserts="1" />
+                      <test-case name="Demo.Tests.CharacterFeature.HealthReduction(&quot;40&quot;,&quot;60&quot;,System.String[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Demo.Tests.CharacterFeature.HealthReduction(&quot;50&quot;,&quot;50&quot;,System.String[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-case name="Demo.Tests.CharacterFeature.TakingTooMuchDamageResultsInPlayerDeath" description="Taking too much damage results in player death" executed="True" result="Success" success="True" time="0.001" asserts="1">
+                    <properties>
+                      <property name="Description" value="Taking too much damage results in player death" />
+                    </properties>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

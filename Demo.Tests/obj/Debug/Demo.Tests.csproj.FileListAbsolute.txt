@@ -1,0 +1,11 @@
+C:\Dev\C#\Demo\Demo.Tests\bin\Debug\Demo.Tests.dll.config
+C:\Dev\C#\Demo\Demo.Tests\bin\Debug\Demo.Tests.dll
+C:\Dev\C#\Demo\Demo.Tests\bin\Debug\Demo.Tests.pdb
+C:\Dev\C#\Demo\Demo.Tests\bin\Debug\Demo.dll
+C:\Dev\C#\Demo\Demo.Tests\bin\Debug\nunit.framework.dll
+C:\Dev\C#\Demo\Demo.Tests\bin\Debug\TechTalk.SpecFlow.dll
+C:\Dev\C#\Demo\Demo.Tests\bin\Debug\Demo.pdb
+C:\Dev\C#\Demo\Demo.Tests\bin\Debug\nunit.framework.xml
+C:\Dev\C#\Demo\Demo.Tests\obj\Debug\Demo.Tests.csprojResolveAssemblyReference.cache
+C:\Dev\C#\Demo\Demo.Tests\obj\Debug\Demo.Tests.dll
+C:\Dev\C#\Demo\Demo.Tests\obj\Debug\Demo.Tests.pdb

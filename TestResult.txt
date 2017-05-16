@@ -1,0 +1,28 @@
+=> Demo.Tests.CharacterFeature.HealthReduction("0","100",System.String[])
+Given I'm a new player
+-> done: CharacterSteps.GivenImANewPlayer() (0.0s)
+When I take 0 damage
+-> done: CharacterSteps.WhenITakeDamage(0) (0.0s)
+Then My health should now be 100
+-> done: CharacterSteps.ThenMyHealthShouldNowBe(100) (0.0s)
+=> Demo.Tests.CharacterFeature.HealthReduction("40","60",System.String[])
+Given I'm a new player
+-> done: CharacterSteps.GivenImANewPlayer() (0.0s)
+When I take 40 damage
+-> done: CharacterSteps.WhenITakeDamage(40) (0.0s)
+Then My health should now be 60
+-> done: CharacterSteps.ThenMyHealthShouldNowBe(60) (0.0s)
+=> Demo.Tests.CharacterFeature.HealthReduction("50","50",System.String[])
+Given I'm a new player
+-> done: CharacterSteps.GivenImANewPlayer() (0.0s)
+When I take 50 damage
+-> done: CharacterSteps.WhenITakeDamage(50) (0.0s)
+Then My health should now be 50
+-> done: CharacterSteps.ThenMyHealthShouldNowBe(50) (0.0s)
+=> Demo.Tests.CharacterFeature.TakingTooMuchDamageResultsInPlayerDeath
+Given I'm a new player
+-> done: CharacterSteps.GivenImANewPlayer() (0.0s)
+When I take 100 damage
+-> done: CharacterSteps.WhenITakeDamage(100) (0.0s)
+Then I should be dead
+-> done: CharacterSteps.ThenIShouldBeDead() (0.0s)
